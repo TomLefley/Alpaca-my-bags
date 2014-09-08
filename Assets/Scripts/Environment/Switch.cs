@@ -22,7 +22,7 @@ public class Switch : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D col) {
-		if (col.CompareTag("Head") && switchCd == 0) {
+		if (col.CompareTag("Neck") && switchCd == 0) {
             if (on) {
                 pointLight.intensity = 0;
                 shade.color = new Color(200, 200, 200);
@@ -32,6 +32,7 @@ public class Switch : MonoBehaviour {
             }
             on = !on;
 			switchCd = 100;
+            Debug.Log("foo");
 		}
 	}
 }
