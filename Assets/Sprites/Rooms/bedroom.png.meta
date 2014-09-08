@@ -1,0 +1,125 @@
+fileFormatVersion: 2
+guid: a59f69f04ffeb504399da19a51c31526
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bedroom
+    21300002: minute_hand
+    21300004: hour_hand
+    21300006: bear
+    21300008: ringer
+    21300010: alarm
+    21300012: bed
+    21300014: dresser
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: minute_hand
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 430
+        width: 8
+        height: 17
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hour_hand
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 427
+        width: 17
+        height: 7
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 384
+        width: 127
+        height: 203
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ringer
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 393
+        width: 7
+        height: 17
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alarm
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 279
+        width: 88
+        height: 97
+      alignment: 9
+      pivot: {x: .5, y: .400000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bed
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 0
+        width: 622
+        height: 301
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dresser
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 403
+        height: 252
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

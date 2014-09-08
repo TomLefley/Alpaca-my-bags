@@ -4,6 +4,8 @@
 TagManager:
   tags:
   - 
+  - Environment
+  - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
   Builtin Layer 2: Ignore Raycast
@@ -12,11 +14,11 @@ TagManager:
   Builtin Layer 5: UI
   Builtin Layer 6: 
   Builtin Layer 7: 
-  User Layer 8: 
-  User Layer 9: 
-  User Layer 10: 
-  User Layer 11: 
-  User Layer 12: 
+  User Layer 8: Environment
+  User Layer 9: Props
+  User Layer 10: Player
+  User Layer 11: Boundaries
+  User Layer 12: Access
   User Layer 13: 
   User Layer 14: 
   User Layer 15: 
@@ -37,7 +39,27 @@ TagManager:
   User Layer 30: 
   User Layer 31: 
   m_SortingLayers:
+  - name: Background
+    userID: 4
+    uniqueID: 3688054839
+    locked: 0
   - name: Default
     userID: 0
     uniqueID: 0
+    locked: 0
+  - name: Environment
+    userID: 2
+    uniqueID: 2858700813
+    locked: 0
+  - name: Props
+    userID: 3
+    uniqueID: 2130538783
+    locked: 0
+  - name: Player
+    userID: 5
+    uniqueID: 3386035121
+    locked: 0
+  - name: Foreground
+    userID: 1
+    uniqueID: 1435801081
     locked: 0
