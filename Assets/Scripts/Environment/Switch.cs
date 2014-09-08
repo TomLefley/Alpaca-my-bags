@@ -3,7 +3,13 @@ using System.Collections;
 
 public class Switch : MonoBehaviour {
 
-	int switchCD = 0;
+	int switchCd = 0;
+    bool on = false;
+
+    public float intensity;
+
+    public Light pointLight;
+    public SpriteRenderer shade;
 
 	// Use this for initialization
 	void Start () {
@@ -12,15 +18,20 @@ public class Switch : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		switchCD = Mathf.Max (0, switchCD-1);
+		switchCd = Mathf.Max (0, switchCd-1);
 	}
 
 	void OnTriggerEnter2D(Collider2D col) {
-		if (col.CompareTag("Head") && switchCD == 0) {
-			int intensity = (int)transform.parent.GetComponentInChildren<Light>().intensity;
-			intensity ^= 8;
-			transform.parent.GetComponentInChildren<Light>().intensity = intensity;
-			switchCD = 100;
+		if (col.CompareTag("Head") && switchCd == 0) {
+            if (on) {
+                pointLight.intensity = 0;
+                shade.color = new Color(200, 200, 200);
+            } else {
+                pointLight.intensity = intensity;
+                shade.color = new Color(255, 255, 255);
+            }
+            on = !on;
+			switchCd = 100;
 		}
 	}
 }
