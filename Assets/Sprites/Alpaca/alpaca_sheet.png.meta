@@ -15,7 +15,7 @@ TextureImporter:
     21300020: back_hind_leg
     21300022: back_fore_leg
     21300024: front_hind_leg
-    21300026: front_for_leg
+    21300026: front_fore_leg
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -51,7 +51,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
@@ -177,7 +177,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .800000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: front_for_leg
+    - name: front_fore_leg
       rect:
         serializedVersion: 2
         x: 445
