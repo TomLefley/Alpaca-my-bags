@@ -3,9 +3,8 @@
 --- !u!78 &1
 TagManager:
   tags:
-  - 
-  - Environment
-  - Neck
+  - Prop
+  - Head
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -15,13 +14,13 @@ TagManager:
   Builtin Layer 5: UI
   Builtin Layer 6: 
   Builtin Layer 7: 
-  User Layer 8: Environment
+  User Layer 8: Background
   User Layer 9: Props
-  User Layer 10: Player
-  User Layer 11: Boundaries
-  User Layer 12: Access
-  User Layer 13: Interact
-  User Layer 14: Neck
+  User Layer 10: Hero
+  User Layer 11: Foreground
+  User Layer 12: Mid
+  User Layer 13: Platformer
+  User Layer 14: Platform
   User Layer 15: 
   User Layer 16: 
   User Layer 17: 
@@ -40,27 +39,31 @@ TagManager:
   User Layer 30: 
   User Layer 31: 
   m_SortingLayers:
-  - name: Background
-    userID: 4
-    uniqueID: 3688054839
-    locked: 0
   - name: Default
     userID: 0
     uniqueID: 0
     locked: 0
-  - name: Environment
+  - name: Background
     userID: 2
-    uniqueID: 2858700813
+    uniqueID: 3326718615
+    locked: 0
+  - name: Mid
+    userID: 5
+    uniqueID: 959051243
     locked: 0
   - name: Props
-    userID: 3
-    uniqueID: 2130538783
+    userID: 4
+    uniqueID: 839031123
     locked: 0
-  - name: Player
-    userID: 5
-    uniqueID: 3386035121
+  - name: Hero
+    userID: 3
+    uniqueID: 3650453129
     locked: 0
   - name: Foreground
     userID: 1
-    uniqueID: 1435801081
+    uniqueID: 3457565645
+    locked: 0
+  - name: UI
+    userID: 6
+    uniqueID: 1015943323
     locked: 0
