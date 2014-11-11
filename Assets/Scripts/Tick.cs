@@ -21,7 +21,8 @@ public class Tick : MonoBehaviour {
 	}
 
 	void position() {
-		transform.Translate(new Vector2(collected*35,0));
+		//transform.Translate(new Vector2(collected*35,0));
+        transform.localPosition = new Vector3(collected*35, 0, 0);
 		collected++;
 	}
 }

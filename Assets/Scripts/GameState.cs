@@ -26,8 +26,7 @@ public class GameState : MonoBehaviour {
 
 		if (timer.time == -1) {
 			state = State.end;
-			GameObject.Find("collected").GetComponent<Animator>().SetTrigger("End");
-			//GameObject.Find ("suitcase").GetComponent<Animator>().SetTrigger("End");
+			GameObject.Find("enter").GetComponent<SpriteRenderer>().enabled = true;
 		}
 	}
 }
